@@ -1,22 +1,68 @@
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 200px;
-    background-color: #f1f1f1;
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #573824 ;
 }
 
-li  {
-    display: block;
-    color: #000;
-    padding: 8px 16px;
+
+li{
+  display: inline-block;
+}
+
+li a{
+  display: block;
+  padding: 8px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+
+
+}
+
+li a:hover {
+    background-color: #855F47 ;
+    height: 66px;
     text-decoration: none;
+    color: white;
 }
 
-/* Change the link color on hover */
-li:hover {
-    background-color: #555;
-    color: white;
+/* Vertical Navigation*/
+nav.vertical {
+   float: left;
+   width: 15%;
+   margin-top: -60px;
+
+}
+
+nav.vertical ul {
+   margin-left: 10px;
+   background-color: #573824;
+}
+
+nav.vertical li.lTitle {
+   font-size: 0.9em;
+   margin-top: 30px;
+   margin-bottom: 12px;
+   color: black;
+}
+
+nav.vertical li {
+   display: block;
+   margin-bottom: 3px;
+}
+
+nav.vertical li a {
+   display:block;
+   width: 100%;
+   font-size: 0.8em;
+   margin-left: 15px;
+   color: black;
+}
+
+nav.vertical li a:hover {
+   color: black;
 }
 
 
@@ -71,4 +117,21 @@ img{
 
 float: left;
 >>>>>>> 7cefea58063267bb305b594807837e950a3fc127
+}
+
+
+
+
+footer {
+   clear: left;
+   padding-top: 10px;
+}
+
+footer address {
+   font-size: 0.95em;
+   font-style: normal;
+   text-align: center;
+   color: white;
+   background-color: #573824 ;
+   margin: 85px 0px;
 }
