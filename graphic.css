@@ -1,4 +1,7 @@
-ul{
+
+/*header*/
+/*header ul*/
+.H1{
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -6,41 +9,45 @@ ul{
   background-color: #573824 ;
 }
 
-
-li{
+/*header li*/
+#H2{
   display: inline-block;
 }
 
-li a{
+#H2 a{
   display: block;
   padding:8px;
   color: white;
   text-align: center;
   padding: 14px 16px;
-
+  font-size: 20px;
 
 }
 
-li a:hover {
+#H2 a:hover {
     background-color: #855F47 ;
     height: 66px;
     text-decoration: none;
     color: white;
 }
 
+<<<<<<< HEAD
 /* Vertical Navigation*/
 nav.vertical {
    float: left;
    width: 12%;
    margin-top: -60px;
 
+=======
+#H2 a:hover{
+  
+>>>>>>> 3d6984043dd21dd9fee03e05fdbc6a9dd4949dd4
 }
+ /*end header li*/
+/*end header*/
 
-nav.vertical ul {
-   margin-left: 10px;
-   background-color: #573824;
-}
 
+<<<<<<< HEAD
 nav.vertical li.lTitle {
    font-size: 0.9em;
    margin-top: 25px;
@@ -59,12 +66,49 @@ nav.vertical li a {
    font-size: 0.8em;
    margin-left: -10px;
    color: black;
-}
+=======
 
-nav.vertical li a:hover {
-   color: black;
-}
 
+/*verticalL*/
+/* vertical ul*/
+.vertical{
+  float: left;
+    margin-right: 10px;
+    width: 150px;
+>>>>>>> 3d6984043dd21dd9fee03e05fdbc6a9dd4949dd4
+}
+ .V1 {
+   list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 15%;
+    background-color: #573824;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+/*vertical li*/
+.Vl a{
+
+  display: block;
+  padding: 8px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  font-size: 20px;
+
+  }
+  .Vl a:hover {
+      background-color: #855F47 ;
+      height: 66px;
+      text-decoration: none;
+      color: white;
+  }
+   .Vt {
+    font-size: 19px;
+    color: white;
+    text-align: center;
+  }
 
 p {
   text-align: center;
@@ -72,10 +116,14 @@ p {
 
 
 
+<<<<<<< HEAD
 }
 
 
+=======
+>>>>>>> 3d6984043dd21dd9fee03e05fdbc6a9dd4949dd4
 
+/*end vertical*/
 
 
 
