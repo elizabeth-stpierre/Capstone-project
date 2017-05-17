@@ -13,7 +13,7 @@ li{
 
 li a{
   display: block;
-  padding: 8px;
+  padding:8px;
   color: white;
   text-align: center;
   padding: 14px 16px;
@@ -31,7 +31,7 @@ li a:hover {
 /* Vertical Navigation*/
 nav.vertical {
    float: left;
-   width: 15%;
+   width: 12%;
    margin-top: -60px;
 
 }
@@ -43,21 +43,21 @@ nav.vertical ul {
 
 nav.vertical li.lTitle {
    font-size: 0.9em;
-   margin-top: 30px;
+   margin-top: 25px;
    margin-bottom: 12px;
    color: black;
 }
 
 nav.vertical li {
    display: block;
-   margin-bottom: 3px;
+   margin-bottom: 4px;
 }
 
 nav.vertical li a {
    display:block;
-   width: 100%;
+   width: 90%;
    font-size: 0.8em;
-   margin-left: 15px;
+   margin-left: -10px;
    color: black;
 }
 
@@ -66,14 +66,20 @@ nav.vertical li a:hover {
 }
 
 
+p {
+  text-align: center;
 
 
 
 
-img{
-
-float: left;
 }
+
+
+
+
+
+
+
 
 
 
