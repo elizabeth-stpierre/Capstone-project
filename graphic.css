@@ -32,6 +32,7 @@
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* Vertical Navigation*/
 nav.vertical {
    float: left;
@@ -43,6 +44,9 @@ nav.vertical {
   
 >>>>>>> 3d6984043dd21dd9fee03e05fdbc6a9dd4949dd4
 }
+=======
+
+>>>>>>> 5d036fbfa28fbec7ab618bf8ebbdcbbce2cac47c
  /*end header li*/
 /*end header*/
 
@@ -88,7 +92,10 @@ nav.vertical li a {
     overflow: auto;
 }
 /*vertical li*/
-.Vl a{
+.VL{
+   border:1px solid white;
+}
+.VL a{
 
   display: block;
   padding: 8px;
@@ -98,7 +105,7 @@ nav.vertical li a {
   font-size: 20px;
 
   }
-  .Vl a:hover {
+  .VL a:hover {
       background-color: #855F47 ;
       height: 66px;
       text-decoration: none;
@@ -110,11 +117,44 @@ nav.vertical li a {
     text-align: center;
   }
 
+<<<<<<< HEAD
 p {
   text-align: center;
 
+=======
+.verticalR{
+  float: right;
+    margin-right: 10px;
+    width: 140px;
+}
+>>>>>>> 5d036fbfa28fbec7ab618bf8ebbdcbbce2cac47c
 
+.V2{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+   background-color: #573824;
+  position: fixed;
+   overflow: auto;
+   float: right;
+}
 
+.Vy{
+color: white;
+font-size: 19px;
+text-align: center;
+}
+
+.VR{
+  display: block;
+  padding: 8px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  font-size: 20px;
+   border:1px solid white;
+   width: 150px;
+}
 
 <<<<<<< HEAD
 }
@@ -135,6 +175,7 @@ p {
 footer {
    clear: left;
    padding-top: 10px;
+
 }
 
 footer address {
