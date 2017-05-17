@@ -1,4 +1,7 @@
-ul{
+
+/*header*/
+/*header ul*/
+.H1{
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -6,121 +9,83 @@ ul{
   background-color: #573824 ;
 }
 
-
-li{
+/*header li*/
+#H2{
   display: inline-block;
 }
 
-li a{
+#H2 a{
   display: block;
   padding: 8px;
   color: white;
   text-align: center;
   padding: 14px 16px;
-
+  font-size: 20px;
 
 }
 
-li a:hover {
+#H2 a:hover {
     background-color: #855F47 ;
     height: 66px;
     text-decoration: none;
     color: white;
 }
 
-/* Vertical Navigation*/
-nav.vertical {
-   float: left;
-   width: 15%;
-   margin-top: -60px;
-
+#H2 a:hover{
+  
 }
+ /*end header li*/
+/*end header*/
 
-nav.vertical ul {
-   margin-left: 10px;
-   background-color: #573824;
+
+
+
+/*verticalL*/
+/* vertical ul*/
+.vertical{
+  float: left;
+    margin-right: 10px;
+    width: 150px;
 }
-
-nav.vertical li.lTitle {
-   font-size: 0.9em;
-   margin-top: 30px;
-   margin-bottom: 12px;
-   color: black;
+ .V1 {
+   list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 15%;
+    background-color: #573824;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
 }
+/*vertical li*/
+.Vl a{
 
-nav.vertical li {
-   display: block;
-   margin-bottom: 3px;
-}
-
-nav.vertical li a {
-   display:block;
-   width: 100%;
-   font-size: 0.8em;
-   margin-left: 15px;
-   color: black;
-}
-
-nav.vertical li a:hover {
-   color: black;
-}
-
-
-
-
-
-
-<<<<<<< HEAD
-ul .H1{
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #573824;
-}
-
-
-li .H2{
-  display: inline-block;
-}
-
-li #H2 a{
   display: block;
   padding: 8px;
   color: white;
   text-align: center;
   padding: 14px 16px;
+  font-size: 20px;
 
-
-}
-
-li #H2 a:hover {
-    background-color: #855F47;
-    height: 66px;
-    text-decoration: none;
+  }
+  .Vl a:hover {
+      background-color: #855F47 ;
+      height: 66px;
+      text-decoration: none;
+      color: white;
+  }
+   .Vt {
+    font-size: 19px;
     color: white;
-}
-
-
-ul .V1 {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-li .V2 {
-    display: block;
-    width: 60px;
-    background-color: #dddddd;
-=======
-img{
-
-float: left;
->>>>>>> 7cefea58063267bb305b594807837e950a3fc127
-}
+    text-align: center;
+  }
 
 
 
+
+
+
+/*end vertical*/
 
 footer {
    clear: left;
