@@ -31,27 +31,25 @@
     color: white;
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 /* Vertical Navigation*/
 nav.vertical {
    float: left;
    width: 12%;
    margin-top: -60px;
 
-=======
-#H2 a:hover{
-  
->>>>>>> 3d6984043dd21dd9fee03e05fdbc6a9dd4949dd4
 }
-=======
+#H2 a:hover{
 
->>>>>>> 5d036fbfa28fbec7ab618bf8ebbdcbbce2cac47c
+
+}
+
+
  /*end header li*/
 /*end header*/
 
 
-<<<<<<< HEAD
+
 nav.vertical li.lTitle {
    font-size: 0.9em;
    margin-top: 25px;
@@ -70,17 +68,16 @@ nav.vertical li a {
    font-size: 0.8em;
    margin-left: -10px;
    color: black;
-=======
+}
 
 
 /*verticalL*/
 /* vertical ul*/
-.vertical{
+.vertical {
   float: left;
     margin-right: 10px;
     width: 150px;
->>>>>>> 3d6984043dd21dd9fee03e05fdbc6a9dd4949dd4
-}
+  }
  .V1 {
    list-style-type: none;
     margin: 0;
@@ -117,17 +114,24 @@ nav.vertical li a {
     text-align: center;
   }
 
-<<<<<<< HEAD
+  .VS{
+    color: white;
+    font-size: 13px;
+    text-align: center;
+  }
+
+/*end vertical left*/
+
 p {
   text-align: center;
+}
 
-=======
-.verticalR{
+.verticalR {
   float: right;
     margin-right: 10px;
     width: 140px;
 }
->>>>>>> 5d036fbfa28fbec7ab618bf8ebbdcbbce2cac47c
+
 
 .V2{
   list-style-type: none;
@@ -156,12 +160,9 @@ text-align: center;
    width: 150px;
 }
 
-<<<<<<< HEAD
-}
 
 
-=======
->>>>>>> 3d6984043dd21dd9fee03e05fdbc6a9dd4949dd4
+
 
 /*end vertical*/
 
