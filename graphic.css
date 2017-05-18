@@ -1,0 +1,184 @@
+
+body {
+    background-image: url("images/woodfloor.jpg");
+
+}
+
+
+img{
+  vertical-align: middle;
+}
+
+
+
+.title{
+  color: #AC7946;
+}
+
+.contact{
+  text-align: center;
+    color: #AC7946;
+}
+
+
+/*header*/
+/*header ul*/
+
+
+.H1{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:#67401A ;
+}
+
+/*header li*/
+#H2{
+  display: inline-block;
+}
+
+#H2 a{
+  display: block;
+  padding: 8px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  font-size: 20px;
+
+}
+
+#H2 a:hover {
+    background-color: #855F47 ;
+    height: 66px;
+    text-decoration: none;
+    color: white;
+}
+
+
+
+ /*end header li*/
+/*end header*/
+
+
+img {
+  vertical-align: middle;
+}
+
+/*verticalL*/
+/* vertical ul*/
+.vertical{
+  float: left;
+    margin-right: 10px;
+    width: 150px;
+}
+ .V1 {
+   list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 15%;
+    background-color: #67401A;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+/*vertical li*/
+.VL{
+   border:1px solid white;
+}
+.VL a{
+
+  display: block;
+  padding: 8px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  font-size: 20px;
+text-decoration: none;
+  }
+  .VL a:hover {
+      background-color: #67401A ;
+      height: 66px;
+      text-decoration: none;
+      color: white;
+  }
+   .Vt {
+    font-size: 19px;
+    color: white;
+    text-align: center;
+  }
+
+  .VS{
+    color: white;
+    font-size: 13px;
+    text-align: center;
+  }
+/*end vertical Left*/
+#HomeP{
+
+    display: block;
+    margin: auto;
+    width: 40%;
+
+}
+
+/*vertical Right*/
+.verticalR{
+  float: right;
+    margin-right: 10px;
+    width: 140px;
+}
+
+.V2{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+   background-color: #67401A;
+  position: fixed;
+   overflow: auto;
+   float: right;
+}
+
+.Vy{
+color: white;
+font-size: 19px;
+text-align: center;
+}
+
+.VR{
+  display: block;
+  padding: 8px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  font-size: 20px;
+   border:1px solid white;
+   width: 150px;
+}
+
+
+p {
+
+  color: white;
+  text-align: center;
+  font-size: 20px;
+}
+
+
+
+/*end vertical Right*/
+
+footer {
+   clear: left;
+   padding-top: 10px;
+  vertical-align: bottom;
+}
+
+footer address {
+   font-size: 0.95em;
+   font-style: normal;
+   text-align: center;
+   color: white;
+   background-color: #67401A ;
+   margin: 85px 0px;
+}
