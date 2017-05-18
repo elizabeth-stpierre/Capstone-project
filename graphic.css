@@ -1,18 +1,36 @@
-<<<<<<< HEAD:graphic.css
-=======
 
-body{
-  background-image: url("images/mocha.jpeg");
+body {
+    background-image: url("images/woodfloor.jpg");
+
 }
->>>>>>> f7e6ab5d3773633846445d4f663442619068317c:css/graphic.css
+
+
+img{
+  vertical-align: middle;
+}
+
+
+
+.title{
+  color: #AC7946;
+}
+
+.contact{
+  text-align: center;
+    color: #AC7946;
+}
+
+
 /*header*/
 /*header ul*/
+
+
 .H1{
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #573824 ;
+  background-color:#67401A ;
 }
 
 /*header li*/
@@ -22,7 +40,7 @@ body{
 
 #H2 a{
   display: block;
-  padding:8px;
+  padding: 8px;
   color: white;
   text-align: center;
   padding: 14px 16px;
@@ -38,63 +56,28 @@ body{
 }
 
 
-/* Vertical Navigation*/
-nav.vertical {
-   float: left;
-   width: 12%;
-   margin-top: -60px;
 
-}
-#H2 a:hover{
-
-
-}
-
-
-<<<<<<< HEAD:graphic.css
-/*end header li*/
-=======
  /*end header li*/
-
->>>>>>> f7e6ab5d3773633846445d4f663442619068317c:css/graphic.css
 /*end header*/
 
 
-
-nav.vertical li.lTitle {
-   font-size: 0.9em;
-   margin-top: 25px;
-   margin-bottom: 12px;
-   color: black;
+img {
+  vertical-align: middle;
 }
-
-nav.vertical li {
-   display: block;
-   margin-bottom: 4px;
-}
-
-nav.vertical li a {
-   display:block;
-   width: 90%;
-   font-size: 0.8em;
-   margin-left: -10px;
-   color: black;
-}
-
 
 /*verticalL*/
 /* vertical ul*/
-.vertical {
+.vertical{
   float: left;
     margin-right: 10px;
     width: 150px;
-  }
+}
  .V1 {
    list-style-type: none;
     margin: 0;
     padding: 0;
     width: 15%;
-    background-color: #573824 ;
+    background-color: #67401A;
     position: fixed;
     height: 100%;
     overflow: auto;
@@ -105,16 +88,16 @@ nav.vertical li a {
 }
 .VL a{
 
- display: block;
+  display: block;
   padding: 8px;
   color: white;
   text-align: center;
   padding: 14px 16px;
   font-size: 20px;
-
- }
+text-decoration: none;
+  }
   .VL a:hover {
-      background-color: #855F47 ;
+      background-color: #67401A ;
       height: 66px;
       text-decoration: none;
       color: white;
@@ -125,43 +108,32 @@ nav.vertical li a {
     text-align: center;
   }
 
-<<<<<<< HEAD:graphic.css
- .VS{
-=======
   .VS{
->>>>>>> f7e6ab5d3773633846445d4f663442619068317c:css/graphic.css
     color: white;
     font-size: 13px;
     text-align: center;
   }
+/*end vertical Left*/
+#HomeP{
 
-/*end vertical left*/
-<<<<<<< HEAD:graphic.css
+    display: block;
+    margin: auto;
+    width: 40%;
 
-p {
-  text-align: center;
 }
 
-.contact {
-  text-align: center;
-}
-=======
-
-
->>>>>>> f7e6ab5d3773633846445d4f663442619068317c:css/graphic.css
-
-.verticalR {
+/*vertical Right*/
+.verticalR{
   float: right;
     margin-right: 10px;
     width: 140px;
 }
 
-
 .V2{
   list-style-type: none;
   margin: 0;
   padding: 0;
-   background-color: #573824 ;
+   background-color: #67401A;
   position: fixed;
    overflow: auto;
    float: right;
@@ -184,27 +156,22 @@ text-align: center;
    width: 150px;
 }
 
-<<<<<<< HEAD:graphic.css
-=======
+
+p {
+
+  color: white;
+  text-align: center;
+  font-size: 20px;
+}
 
 
 
-
-/*end vertical*/
->>>>>>> f7e6ab5d3773633846445d4f663442619068317c:css/graphic.css
-
-
-
-
-
-
-
-/*end vertical*/
+/*end vertical Right*/
 
 footer {
    clear: left;
    padding-top: 10px;
-
+  vertical-align: bottom;
 }
 
 footer address {
@@ -212,6 +179,6 @@ footer address {
    font-style: normal;
    text-align: center;
    color: white;
-   background-color: #573824 ;
+   background-color: #67401A ;
    margin: 85px 0px;
 }

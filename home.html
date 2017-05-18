@@ -17,7 +17,7 @@ integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
 integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
-    <title>Home</title>
+    <title>Starter Template for Bootstrap</title>
 
     <!-- Bootstrap core CSS -->
     <link href="../../dist/css/bootstrap.min.css" rel="stylesheet">
@@ -32,58 +32,50 @@ integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
     <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
 
-    <link href="css/graphic.css" rel="stylesheet" />
-
-    <link rel="stylesheet" href="css/lightbox.css">
+    <link href="graphic.css" rel="stylesheet" />
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-
-</head>
+  </head>
 <body>
 <header>
 <!-- header -->
 <nav class="horizontal">
   <ul class="H1">
     <img src="images/Coffee_Perk.png">
-    <li id="H2"><a class="active"href="#">home</a></li>
-    <li id="H2"><a href="#">contact</a></li>
-    <li id="H2"><a href="#">about us</a></li>
-    <li id="H2"><a href="#">order</a></li>
+    <li id="H2"><a class="active"href="home.html">home</a></li>
+    <li id="H2"><a href="contact.html">contact</a></li>
+    <li id="H2"><a href="about.html">about us</a></li>
+    <!-- <li id="H2"><a href="order.html">order</a></li> -->
   </ul>
 </nav>
 </header>
 <br>
 
+<div>
   <nav class="verticalL">
-
    <ul class="V1">
      <h1 class="Vt">Types of Coffee:</h1>
-     <li class="VL"><a href="images/Americano-coffee.jpg" data-lightbox="gallery"  class="images-thumbnail">*Americano</a></li>
-     <li class="VL"><a href="Cappuccine.jpg">*cappuccino</a></li>
-     <li class="VL"><a href="mocha.jpeg">*mocha</a></li>
-     <li class="VL"><a href="cafe au late.jpg">cafe au lait</a></li>
-     <li class="VL"><a href="expresso.jpg">Espresso</a></li>
-     <li class="VL"><a href="latte.jpeg">*latte</a></li>
-     <li class="VL"><a href="breve.jpg">breve</a></li>
-     <li class="VL"><a href="macchiato.jpg">macchiato</a></li>
-     <li class="VL"><a href="red eye.jpg">red eye</a></li>
+     <li class="VL"><a href="#">*Americano</a></li>
+     <li class="VL"><a href="#">*cappuccino</a></li>
+     <li class="VL"><a href="#">*mocha</a></li>
+     <li class="VL"><a href="#">cafe au lait</a></li>
+     <li class="VL"><a href="#">Espresso</a></li>
+     <li class="VL"><a href="#">*latte</a></li>
+     <li class="VL"><a href="#">breve</a></li>
+     <li class="VL"><a href="#">macchiato</a></li>
+     <li class="VL"><a href="#">red eye</a></li>
      <li class="VS"><strong>*</strong> most ordered coffee</li>
    </ul>
  </nav>
+ </div>
 
 
 
-
-
-
-
-
-
-
+  <div>
   <nav  class="verticalR">
     <ul class="V2">
       <h1 class="Vy">Types of Food:</h1>
@@ -92,28 +84,24 @@ integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/
       <li class="VR">Sandwiches</li>
     </ul>
   </nav>
+</div>
+
+<img src="images/mocha.jpeg" id="HomeP">
+
+<section class="advise">
+  <p>Try ower famous <strong>mocha coffee</strong> that been rated 5 star out of 5</p>
+</section>
+
+<footer>
+    <address>
+        Coffee Perk &#183;
+        17220 N Boswell Blvd &#183;
+        Sun City, AZ 85373 &#183;
+        (777) 555 - 8888
+     </address>
+</footer>
 
 
-
-  <section>
-    <p></p>
-  </section>
-
-
-
-  <footer>
-      <address>
-          Coffee Perk &#183;
-          Location &#183;
-          Bismarck, AZ 58504 &#183;
-          (777) 555 - 8888
-       </address>
-  </footer>
-
-
-
-
-<script src="lightbox.js"></script>
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
@@ -124,9 +112,9 @@ integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/
     <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
     <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
 <!-- Optional theme -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"crossorigin="anonymous">
+
 
 
   </body>
