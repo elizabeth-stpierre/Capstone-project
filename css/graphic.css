@@ -1,4 +1,7 @@
 
+body{
+  background-image: url("images/mocha.jpeg");
+}
 /*header*/
 /*header ul*/
 .H1{
@@ -46,6 +49,7 @@ nav.vertical {
 
 
  /*end header li*/
+
 /*end header*/
 
 
@@ -122,9 +126,7 @@ nav.vertical li a {
 
 /*end vertical left*/
 
-p {
-  text-align: center;
-}
+
 
 .verticalR {
   float: right;

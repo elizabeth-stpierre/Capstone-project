@@ -32,7 +32,9 @@ integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
     <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
 
-    <link href="graphic.css" rel="stylesheet" />
+    <link href="css/graphic.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="css/lightbox.css">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -46,7 +48,7 @@ integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/
 <!-- header -->
 <nav class="horizontal">
   <ul class="H1">
-    <img src="Coffee_Perk.png">
+    <img src="images/Coffee_Perk.png">
     <li id="H2"><a class="active"href="#">home</a></li>
     <li id="H2"><a href="#">contact</a></li>
     <li id="H2"><a href="#">about us</a></li>
@@ -57,20 +59,30 @@ integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/
 <br>
 
   <nav class="verticalL">
+
    <ul class="V1">
      <h1 class="Vt">Types of Coffee:</h1>
-     <li class="VL"><a href="#">*Americano</a></li>
-     <li class="VL"><a href="#">*cappuccino</a></li>
-     <li class="VL"><a href="#">*mocha</a></li>
-     <li class="VL"><a href="#">cafe au lait</a></li>
-     <li class="VL"><a href="#">Espresso</a></li>
-     <li class="VL"><a href="#">*latte</a></li>
-     <li class="VL"><a href="#">breve</a></li>
-     <li class="VL"><a href="#">macchiato</a></li>
-     <li class="VL"><a href="#">red eye</a></li>
+     <li class="VL"><a href="images/Americano-coffee.jpg" data-lightbox="gallery"  class="images-thumbnail">*Americano</a></li>
+     <li class="VL"><a href="Cappuccine.jpg">*cappuccino</a></li>
+     <li class="VL"><a href="mocha.jpeg">*mocha</a></li>
+     <li class="VL"><a href="cafe au late.jpg">cafe au lait</a></li>
+     <li class="VL"><a href="expresso.jpg">Espresso</a></li>
+     <li class="VL"><a href="latte.jpeg">*latte</a></li>
+     <li class="VL"><a href="breve.jpg">breve</a></li>
+     <li class="VL"><a href="macchiato.jpg">macchiato</a></li>
+     <li class="VL"><a href="red eye.jpg">red eye</a></li>
      <li class="VS"><strong>*</strong> most ordered coffee</li>
    </ul>
  </nav>
+
+
+
+
+
+
+
+
+
 
   <nav  class="verticalR">
     <ul class="V2">
@@ -82,26 +94,6 @@ integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/
   </nav>
 
 
-    <nav class="vertical">
-        <ul>
-            <li class="lTitle">Overview</li>
-            <li><a href="#">w</a></li>
-            <li><a href="#">U</a></li>
-            <li><a href="#">R</a></li>
-            <li><a href="#">Q</a></li>
-            <li><a href="#">T</a></li>
-            <li><a href="#">A</a></li>
-
-            <li class="lTitle">S</li>
-            <li><a href="#">T</a></li>
-            <li><a href="#">T</a></li>
-            <li><a href="#">D</a></li>
-            <li><a href="#">T</a></li>
-            <li><a href="#">S</a></li>
-
-        </ul>
-    </nav>
-
 
   <section>
     <p></p>
@@ -109,12 +101,19 @@ integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/
 
 
 
+  <footer>
+      <address>
+          Coffee Perk &#183;
+          Location &#183;
+          Bismarck, AZ 58504 &#183;
+          (777) 555 - 8888
+       </address>
+  </footer>
 
 
 
 
-
-
+<script src="lightbox.js"></script>
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
@@ -129,13 +128,6 @@ integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/
 <!-- Optional theme -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"crossorigin="anonymous">
 
-<footer>
-    <address>
-        Coffee Perk &#183;
-        Location &#183;
-        Bismarck, AZ 58504 &#183;
-        (777) 555 - 8888
-     </address>
-</footer>
+
   </body>
 </html>
