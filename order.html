@@ -75,9 +75,8 @@ integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/
      <div class="container">
 
 
-         <div class="row">
-             <div class="col-xs-7 col-md-7">
-
+         <div>
+             <div>
                  <!-- Inputs -->
 
                  <section id="contact">
@@ -97,19 +96,72 @@ integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/
                          <label for="order">Order</label><textarea  rows="2" cols="85" placeholder="Enter Message"></textarea>
                      </div>
 
-                     <button type="submit">Submit</button>
+
                  </section>
              </div>
 
-  <section>
-    <p></p>
-  </section>
+             <fieldset id="order">
+               <label for="ordertype">Order Type</label>
+               <select id="ordertype" name="ordertype">
+                       <option value="type1">Pick up</option>
+                       <option value="type2">Delivery</option>
+                       <option value="type3" selected="selected">Dine-in</option>
+                     </select>
 
 
 
 
+                 <label for="ordertype">what kind of coffee would you like ?</label>
+                  <select id="ordertype" name="ordertype">
+                 <option value="type1">Americana</option>
+                 <option value="type2">Cappuccino</option>
+                 <option value="type3" selected="selected">Mocha</option>
+                 <option value="type4">Cafe au lait</option>
+                 <option value="type5">Expresso</option>
+                 <option value="type6">Cafe au lait</option>
+                 <option value="type7">Expresso</option>
+                 <option value="type8">Latte</option>
+                 <option value="type9">Breve</option>
+                 <option value="type10">Macchiato</option>
+                 <option value="type11">Red eye</option>
+                    </select>
 
+                 <label>Was your order correct?</label>
+                 <fieldset class="optionGroup">
 
+                     <label for="oYes">Yes</label>
+                     <input type="radio" name="orderCorrect" value="Yes" id="oYes">
+
+                     <label for="oNo">No</label>
+                     <input type="radio" name="orderCorrect" value="No" id="oNo">
+
+                 </fieldset>
+
+                 <label for="ordertype">Which kind of milk?</label>
+                 <select id="ordertype" name="ordertype">
+                         <option value="type1">Olman milk</option>
+                         <option value="type2">Rice milk</option>
+                         <option value="type3" selected="selected">Regular milk</option>
+                         </select>
+
+                         <label>Would you like sugar?</label>
+                         <fieldset class="optionGroup">
+
+                             <label for="oYes">Yes</label>
+                             <input type="radio" name="orderCorrect" value="Yes" id="oYes">
+
+                             <label for="oNo">No</label>
+                             <input type="radio" name="orderCorrect" value="No" id="oNo">
+
+                             <label for="ordersPerMonth">How many sugars would you like?</label>
+                             <input type="Number"value="1" min="0" max="10" step="1" />
+
+                             <!-- Buttons -->
+
+                              <p>
+                                <input type="submit" value="Submit My Order" />
+                                <input type="reset" value="Cancel">
+                              </p>
 
       <div class="starter-template">
 
