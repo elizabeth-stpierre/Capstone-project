@@ -122,6 +122,16 @@ text-decoration: none;
 
 }
 
+.form-group {
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.col-xs-7, .col-md-7 {
+  text-align: center;
+}
+
+
 /*vertical Right*/
 .verticalR{
   float: right;
