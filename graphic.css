@@ -5,9 +5,7 @@ body {
 }
 
 
-img{
-  vertical-align: middle;
-}
+
 
 
 
@@ -175,6 +173,11 @@ p {
 
 
 /*end vertical Right*/
+
+#order{
+  color: white;
+  clear:white;
+}
 
 footer {
    clear: left;
